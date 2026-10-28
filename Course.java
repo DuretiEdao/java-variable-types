@@ -18,6 +18,7 @@ public class Course
 
     void showStatistics()
     {
+        // Local variable: exists only while showStatistics() is running
         double passPercentage = (studentsPassed * 100.0) / numberOfStudents;
 
         System.out.println("Course: " + courseName);
