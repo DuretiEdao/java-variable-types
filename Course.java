@@ -9,6 +9,7 @@ public class Course
 
     Course(String courseName, int numberOfStudents, int studentsPassed)
     {
+// 'this' points to the instance variables of the object being created
         this.courseName = courseName;
         this.numberOfStudents = numberOfStudents;
         this.studentsPassed = studentsPassed;
