@@ -13,6 +13,7 @@ public class Course
         this.numberOfStudents = numberOfStudents;
         this.studentsPassed = studentsPassed;
 
+        // Each new course adds its numbers to the shared static totals
         totalStudents += numberOfStudents;
         totalPassed += studentsPassed;
     }
