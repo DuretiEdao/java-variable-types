@@ -29,6 +29,7 @@ public class Course
 
     public static void main(String[] args)
     {
+        // Three Course objects: each one has its own instance variable values
         Course java = new Course("Java", 20, 17);
         Course database = new Course("Database", 30, 24);
         Course networking = new Course("Networking", 30, 21);
