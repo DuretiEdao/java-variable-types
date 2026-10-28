@@ -34,6 +34,7 @@ public class Course
         Course database = new Course("Database", 30, 24);
         Course networking = new Course("Networking", 30, 21);
 
+        // Each call prints that course's own statistics
         java.showStatistics();
         database.showStatistics();
         networking.showStatistics();
