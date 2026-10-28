@@ -1,5 +1,6 @@
 public class Course
 {
+    // Instance variables: each Course object has its own copy of these
     String courseName;
     int numberOfStudents;
     int studentsPassed;
