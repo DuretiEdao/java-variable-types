@@ -38,6 +38,7 @@ public class Course
         database.showStatistics();
         networking.showStatistics();
 
+        // Local variable in main(): calculated from the static totals
         double universityPassRate = (totalPassed * 100.0) / totalStudents;
 
         System.out.println("University-wide statistics");
