@@ -3,6 +3,7 @@ public class Course
     String courseName;
     int numberOfStudents;
     int studentsPassed;
+    // Static variables: one shared copy for all Course objects
     static int totalStudents = 0;
     static int totalPassed = 0;
 
